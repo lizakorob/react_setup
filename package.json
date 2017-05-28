@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --inline --historyApiFallback --port 8080",
+    "build": "webpack"
+  },
+  "keywords": [
+    "ReactJs"
+  ],
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "lodash": "^4.17.4",
+    "node-sass": "^4.5.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "sass-loader": "^6.0.5",
+    "webpack": "^2.5.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.4.5",
+    "webpack-notifier": "^1.5.0"
+  }
+}
